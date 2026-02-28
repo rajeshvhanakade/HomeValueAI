@@ -1,99 +1,146 @@
-<<<<<<< HEAD
 
-# Project Title
+<h1>🏠 HomeValueAI</h1>
 
+<p>
+<strong>HomeValueAI</strong> is a machine learning project designed to predict house prices using key
+property features such as area, number of bedrooms, location, and other attributes.
+The system helps users make informed real estate decisions based on data-driven predictions.
+</p>
 
-## Predicting House Prices with Machine Learning
+<div class="section">
+    <span class="badge">Python</span>
+    <span class="badge">Machine Learning</span>
+    <span class="badge">Regression</span>
+    <span class="badge">Data Analysis</span>
+</div>
 
-Welcome to HomeValueAI, an advanced machine learning project designed to accurately predict house prices. Using cutting-edge techniques, this project aims to provide valuable insights into real estate markets and assist homeowners, buyers, and sellers in making informed decisions.
+<hr>
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+<div class="section">
+<h2>🚀 Features</h2>
+<ul>
+    <li>Predicts house prices using machine learning models</li>
+    <li>Uses property features such as area, bedrooms, and location</li>
+    <li>Includes data preprocessing and model training pipelines</li>
+    <li>Notebook-based experimentation and prediction workflow</li>
+    <li>Reusable trained model for future predictions</li>
+</ul>
+</div>
 
-## Introduction
+<hr>
 
-In real estate, predicting the price of a home accurately is crucial for both buyers and sellers. This project leverages Machine Learning to build a predictive model that estimates the price of a house based on several features such as area, number of bedrooms, location, etc.
+<div class="section">
+<h2>🧠 Workflow</h2>
 
-## Dataset
+<pre>
+House Dataset
+      │
+      ▼
+Data Preprocessing
+      │
+      ▼
+Train ML Model
+      │
+      ▼
+Predict House Prices
+</pre>
 
-The dataset used in this project contains various attributes of houses along with their corresponding prices. It includes features such as:
+</div>
 
-- Area
-- Number of bedrooms
-- Location
-- Age of the house
-- Amenities
-- and more...
+<hr>
 
-The dataset is available in the `data` directory.
+<div class="section">
+<h2>📁 Project Structure</h2>
 
-## Requirements
+<pre>
+home-value-prediction/
+│
+├── data/
+├── Explore_Data.ipynb
+├── Train_Model.ipynb
+├── Predict_Prices.ipynb
+├── model.py
+├── requirements.txt
+└── README.html
+</pre>
 
-To run this project, you need:
+</div>
 
-- Python 3.x
-- Jupyter Notebook (optional, for exploring the notebooks)
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Seaborn
-- etc.
+<hr>
 
-## Installation
+<div class="section">
+<h2>⚙️ Installation</h2>
 
-1. Clone the repository:
+<h3>1️⃣ Clone Repository</h3>
+<pre>
+git clone https://github.com/RAJESHVHANKADE/House_Value_Prediction.git
+cd home-value-prediction
+</pre>
 
+<h3>2️⃣ Install Dependencies</h3>
+<pre>
+pip install -r requirements.txt
+</pre>
 
-    git clone
-    
-     https://github.com/RAJESHVHANKADE/House_Value_Prediction/tree/main
-    
-2. Navigate to the project directory:
+</div>
 
-    cd home-value-prediction
+<hr>
 
+<div class="section">
+<h2>▶️ Usage</h2>
 
-3. Install the required packages:
+<ul>
+    <li>Run <code>Explore_Data.ipynb</code> to understand the dataset</li>
+    <li>Run <code>Train_Model.ipynb</code> to train the model</li>
+    <li>Run <code>Predict_Prices.ipynb</code> to generate predictions</li>
+</ul>
 
-    pip install -r requirements.txt
+<p>You can also load the trained model in your own script:</p>
 
-
-## Usage
-
-1. Explore the dataset by opening and running the Jupyter Notebook Explore_Data.ipynb.
-
-2. Preprocess the data and train the model by running Train_Model.ipynb.
-
-3. Predict the prices of homes using the trained model by running Predict_Prices.ipynb.
-
-4. You can also use the trained model in your own Python script by importing it:
-
-
+<pre>
 from model import HomeValuePredictor
 
-#Load the model
+model = HomeValuePredictor.load_model("path/to/model")
+predictions = model.predict(X_test)
+</pre>
 
-model = HomeValuePredictor.load_model('path/to/model')
+</div>
 
-#Use the model to predict prices
+<hr>
 
-predicted_prices = model.predict(X_test)
+<div class="section">
+<h2>🛠 Technology Stack</h2>
+<ul>
+    <li>Python</li>
+    <li>Pandas</li>
+    <li>NumPy</li>
+    <li>Scikit-learn</li>
+    <li>Matplotlib</li>
+    <li>Seaborn</li>
+</ul>
+</div>
 
-## Contributing
 
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository and create a pull request with your changes.
 
-## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-=======
-# HomeValueAI
-A machine learning project that predicts house prices using property features such as area, bedrooms, and location to support data-driven real estate decisions.
->>>>>>> 53ad470343709ba1bdf9566c41afac85ed0e3e8e
+<div class="section">
+<h2>📜 License</h2>
+<p>
+This project is licensed under the MIT License.
+</p>
+</div>
+
+<hr>
+
+<div class="section">
+<h2>🌱 Future Enhancements</h2>
+<ul>
+    <li>Add advanced regression models (Random Forest, XGBoost)</li>
+    <li>Integrate live real estate datasets</li>
+    <li>Deploy as a web application</li>
+    <li>Add interactive visualizations</li>
+</ul>
+</div>
+
+</body>
+</html>
