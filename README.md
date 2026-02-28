@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Project Title
 
@@ -92,3 +93,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+=======
+# HomeValueAI
+A machine learning project that predicts house prices using property features such as area, bedrooms, and location to support data-driven real estate decisions.
+>>>>>>> 53ad470343709ba1bdf9566c41afac85ed0e3e8e
